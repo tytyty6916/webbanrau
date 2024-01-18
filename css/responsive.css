@@ -196,6 +196,7 @@ width: 30%;
 .read_bt { width: 134px; }
 .about_taital { font-size: 36px; }
 .lorem_text { width: 100%;  font-size: 14px; }  
+.lorem_text1 { width: 30%;  font-size: 14px; } 
 .testimonial_section::before { display: none; }
 .testimonial_section::after { display: none; }
 .testimonial_main { width: 100%; }
@@ -209,6 +210,7 @@ width: 30%;
 .copyright_text { font-size: 18px; }
 .navbar-light .navbar-nav .nav-link { text-align: center; }
 .search_icon { width: 100%; float: left; text-align: center; }
+.store_icon { width: 100%; float: left; text-align: center; }
 .tempor_text { font-size: 14px; }
 .dolor_text { font-size: 17px; }
 #my_slider a.carousel-control-next { right: 0px; top: 75%; }
@@ -271,7 +273,8 @@ padding: 126px 40px;
 .buy_bt { width: 134px; }
 .read_bt { width: 134px; }
 .about_taital { font-size: 36px; }
-.lorem_text { width: 100%;  font-size: 14px; }  
+.lorem_text { width: 100%;  font-size: 14px; } 
+.lorem_text1 { width: 30%;  font-size: 14px; } 
 .testimonial_section::before { display: none; }
 .testimonial_section::after { display: none; }
 .testimonial_main { width: 100%; }
@@ -284,6 +287,7 @@ padding: 126px 40px;
 .copyright_text { font-size: 18px; }
 .navbar-light .navbar-nav .nav-link { text-align: center; }
 .search_icon { width: 100%; float: left; text-align: center; }
+.store_icon { width: 100%; float: left; text-align: center;}
 .tempor_text { font-size: 14px; }
 .dolor_text { font-size: 17px; }
 
@@ -379,6 +383,7 @@ ul.link li {
 .read_bt { width: 134px; }
 .about_taital { font-size: 36px; }
 .lorem_text { width: 100%;  font-size: 14px; }  
+.lorem_text1 { width: 100%;  font-size: 14px; } 
 .testimonial_section::before { display: none; }
 .testimonial_section::after { display: none; }
 .client_left { width: 100%; }
@@ -393,6 +398,7 @@ ul.link li {
 .copyright_text { font-size: 18px; }
 .navbar-light .navbar-nav .nav-link { text-align: center; }
 .search_icon { width: 100%; float: left; text-align: center; }
+.store_icon { width: 100%; float: left; text-align: center; }
 .tempor_text { font-size: 14px; }
 .dolor_text { font-size: 19px; }
 }
