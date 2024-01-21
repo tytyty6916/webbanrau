@@ -111,12 +111,12 @@ function handle_changeItemQuantity() {
 
 function handle_buyOrder() {
   if (itemsAdded.length <= 0) {
-    alert("There is No Order to Place Yet! \nPlease Make an Order first.");
+    alert("Không có hàng trong giỏ \nXin hãy chọn sản phẩm !");
     return;
   }
   const cartContent = cart.querySelector(".cart-content");
   cartContent.innerHTML = "";
-  alert("Your Order is Placed Successfully :)");
+  alert("Mua Thành Công !!");
   itemsAdded = [];
 
   update();
@@ -129,17 +129,17 @@ function updateTotal() {
   let total = 0;
   cartBoxes.forEach((cartBox) => {
     let priceElement = cartBox.querySelector(".cart-price");
-    let price = parseFloat(priceElement.innerHTML.replace("$", ""));
+    let price = parseFloat(priceElement.innerHTML.replace('đ',''));
     let quantity = cartBox.querySelector(".cart-quantity").value;
     total += price * quantity;
   });
 
-  // keep 2 digits after the decimal point
-  total = total.toFixed(2);
+  // keep 3 digits after the decimal point
+  total = total.toFixed(3);
   // or you can use also
   // total = Math.round(total * 100) / 100;
 
-  totalElement.innerHTML = "$" + total;
+  totalElement.innerHTML =  total+"đ" ;
 }
 
 // ============= HTML COMPONENTS =============
